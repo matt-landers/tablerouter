@@ -1,0 +1,35 @@
+{
+  "name": "tablerouter",
+  "version": "0.1.0",
+  "author": "Matt Landers",
+  "description": "Node module that creates REST routes based on a tablecrud (npm i tablecrud) table.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matt-landers/tablerouter.git"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "npx webpack"
+  },
+  "keywords": [
+    "express",
+    "router",
+    "expressjs",
+    "tablecrud"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/mysql": "^2.15.5",
+    "express": "^4.16.3",
+    "mysql": "^2.16.0",
+    "tablecrud": "^0.1.0",
+    "ts-loader": "^5.2.1",
+    "typescript": "^3.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
